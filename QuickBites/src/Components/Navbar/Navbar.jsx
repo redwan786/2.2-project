@@ -1,7 +1,7 @@
 import './Navbar.css'
 
 const Navbar = () => {
-    //return(
+    return(
       <div>
   
       </div>

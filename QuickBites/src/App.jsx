@@ -1,6 +1,4 @@
 import { useState } from "react"
-import './App.css'
-
 
 const App = () => {
   let heroData = [
@@ -9,7 +7,7 @@ const App = () => {
     {text1:"Give in to",text2:"your passionns"},
   ]
   const [heroCount,setHeroCount] = useState(2);
-  const [playStatus, setPlayStatus] = useState(false);
+  const [playStatus, setPlayStatus] = useState(true);
   return(
     <div>
       <Background playStatus={playStatus} heroCount={heroCount}/>
